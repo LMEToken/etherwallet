@@ -83,12 +83,12 @@
     
       <a class="brand" href="/cx-wallet.html" aria-label="Go to homepage">
         <img src="images/logo-myetherwalletcx.svg" height="64px" width="245px" alt="MyEtherWallet" />
-        <p class="small visible-xs">3.11.2.3</p>
+        <p class="small visible-xs">3.20.01</p>
       </a>
     
     <div class="tagline">
 
-    <span class="hidden-xs">3.11.2.3</span>
+    <span class="hidden-xs">3.20.01</span>
 
     <span class="dropdown dropdown-lang" ng-cloak>
       <a tabindex="0"  aria-haspopup="true" aria-expanded="false" aria-label="change language. current language {{curLang}}" class="dropdown-toggle  btn btn-white" ng-click="dropdown = !dropdown">{{curLang}}<i class="caret"></i></a>
@@ -954,7 +954,7 @@
           </label>
           <input class="form-control"
                  type="text"
-                 placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8"
+                 placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D"
                  ng-model="addAccount.address"
                  ng-change="watchOnlyChange()"
                  ng-keyup="$event.keyCode == 13 && addWatchOnly()"/>
@@ -1514,7 +1514,7 @@
 
     <!-- To Address -->
     <div class="row form-group">
-      <address-field placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" var-name="tx.to"></address-field>
+      <address-field placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" var-name="tx.to"></address-field>
     </div>
 
 
@@ -2109,12 +2109,12 @@
       <div class="col-sm-8 col-sm-offset-2 col-xs-12">
         <label><span translate="SWAP_rec_add">Your Receiving Address</span> <strong>({{swapOrder.toCoin}})</strong></label>
         <div class="form-group" ng-show="swapOrder.toCoin!='BTC'">
-          <address-field placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" var-name="swapOrder.toAddress"></address-field>
+          <address-field placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" var-name="swapOrder.toAddress"></address-field>
         </div>
         <input class="form-control"
                 ng-show="swapOrder.toCoin=='BTC'"
                 type="text"
-                placeholder="1MEWT2SGbqtz6mPCgFcnea8XmWV5Z4Wc6"
+                placeholder="1DECAF2uSpFTP4L1fAHR8GCLrPqdwdLse9"
                 ng-model="swapOrder.toAddress"
                 ng-class="Validator.isValidBTCAddress(swapOrder.toAddress) ? 'is-valid' : 'is-invalid'"/>
       </div>
@@ -2283,7 +2283,7 @@
 
     <!-- To Address -->
     <div class="row form-group">
-      <address-field placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" var-name="tx.to"></address-field>
+      <address-field placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" var-name="tx.to"></address-field>
     </div>
 
 
@@ -2810,7 +2810,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
 
     <input class="form-control"
            type="text"
-           placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8"
+           placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D"
            ng-model="tx.from"
            ng-change="validateAddress(tx.from,'')"
            ng-class="Validator.isValidAddress(tx.from) ? 'is-valid' : 'is-invalid'" />
@@ -2872,7 +2872,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
       </label>
       <input class="form-control"
              type="text"
-             placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8"
+             placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D"
              ng-model="tx.to"
              ng-change="validateAddress(tx.to,'')"/>
     </section>
@@ -4500,7 +4500,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
 
       <h5> Enter the address you would like this name to resolve to: </h5>
 
-      <input ng-model="newResolvedAddress" class="form-control" placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" ng-class="Validator.isValidAddress(tx.to) ? 'is-valid' : 'is-invalid'" />
+      <input ng-model="newResolvedAddress" class="form-control" placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" ng-class="Validator.isValidAddress(tx.to) ? 'is-valid' : 'is-invalid'" />
 
     </div>
 
@@ -5982,7 +5982,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
 
     <!-- To Address -->
     <div class="row form-group">
-      <address-field placeholder="0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" var-name="tx.to"></address-field>
+      <address-field placeholder="0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" var-name="tx.to"></address-field>
     </div>
 
 
@@ -6552,10 +6552,10 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
         </div>
         <p> Buy a... </p>
         <div class="footer__pill-wrap">
-          <a class="footer__pill" href="https://www.ledgerwallet.com/r/fa4b?path=/products/" target="_blank" rel="noopener noreferrer">Ledger Wallet</a>
-          <a class="footer__pill" href="https://trezor.io/?a=myetherwallet.com" target="_blank" rel="noopener noreferrer">TREZOR</a>
-          <a class="footer__pill" href="https://digitalbitbox.com/?ref=mew" target="_blank" rel="noopener noreferrer">Digital Bitbox</a>
-          <a class="footer__pill" href="https://ether.cards/?utm_source=mew&utm_medium=cpm&utm_campaign=site" target="_blank" rel="noopener noreferrer">ether.card</a>
+          <a class="footer__pill" href="https://www.ledgerwallet.com/r/fa4b?path=/products/" target="_blank" rel="noopener">Ledger Wallet</a>
+          <a class="footer__pill" href="https://trezor.io/?a=myetherwallet.com" target="_blank" rel="noopener">TREZOR</a>
+          <a class="footer__pill" href="https://digitalbitbox.com/?ref=mew" target="_blank" rel="noopener">Digital Bitbox</a>
+          <a class="footer__pill" href="https://ether.cards/?utm_source=mew&utm_medium=cpm&utm_campaign=site" target="_blank" rel="noopener">ether.card</a>
         </div>
 
         <h5><i aria-hidden="true">💝</i> Donations are always appreciated!</h5>
@@ -6563,15 +6563,17 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
           ETH:
           <span class="mono wrap">
             mewtopia.eth
-            <a title="See this address on the blockchain explorer" href="https://etherscan.io/address/0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8" class="ext-etheraddresslookup-link" target="_blank">
-              0x7cB57B5A97eAbe94205C07890BE4c1aD31E486A8
+            <a title="See this address on the blockchain explorer" href="https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" class="ext-etheraddresslookup-link" target="_blank">
+              0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D
             </a>
           </span>
           </p>
         <p>
           BTC:
           <span class="mono wrap">
-            1MEWT2SGbqtz6mPCgFcnea8XmWV5Z4Wc6
+            <a title="See this address on the blockchain explorer" href="https://blockchain.info/address/1DECAF2uSpFTP4L1fAHR8GCLrPqdwdLse9" class="ext-etheraddresslookup-link" target="_blank">
+            1DECAF2uSpFTP4L1fAHR8GCLrPqdwdLse9
+          </a>
           </span>
         </p>
         <!--
@@ -6592,13 +6594,16 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
     </section>
 
     <section class="footer--righ">
-
       <p>
         <a aria-label="website via my ether wallet dot com" href="https://www.MyEtherWallet.com" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
           MyEtherWallet.com
         </a>
       </p>
-
+      <p>
+        <a aria-label="website via my ether wallet dot com" href="https://team.myetherwallet.com" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
+          MyEtherWallet Team
+        </a>
+      </p>
       <p>
         <a href="https://www.myetherwallet.com/helpers.html" target="_blank" rel="noopener noreferrer" role="link" tabindex="0">
           Unit Converters &amp; ENS Debugging
@@ -7039,7 +7044,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
                   Always check the URL: `https://www.myetherwallet.com`.
                 </li>
                 <li translate="ONBOARD_secure_1_content__4">
-                  Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.
+                  Always make sure the URL bar has `MYETHERWALLET LLC` in green.
                 </li>
                 <li translate="ONBOARD_secure_1_content__5">
                   Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.

@@ -168,7 +168,7 @@ ONBOARD_secure_1_title          :  '如何防范钓鱼网站',
 ONBOARD_secure_1_content__1     :  '钓鱼网站的常用伎俩是向你发送一条包含网站链接的信息, 并将这个链接伪装成很像MyEtherWallet, EtherDelta, Paypal或者银行的网站.当用户访问这些钓鱼网站并不慎填写自己的账户信息后, 黑客就能窃取这些信息进而窃取你的资金.',
 ONBOARD_secure_1_content__2     :  '可以安装 [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) 或者 [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) 或者 [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) 或者 [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) 这几个可以防范钓鱼网站的插件.',
 ONBOARD_secure_1_content__3     :  '记得每次都要检查 URL 地址: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  '正常情况下地址栏左侧会始终显示 `MYETHERWALLET LLC [US]` 字样的绿色字体.',
+ONBOARD_secure_1_content__4     :  '正常情况下地址栏左侧会始终显示 `MYETHERWALLET LLC` 字样的绿色字体.',
 ONBOARD_secure_1_content__5     :  '不要相信或者点击那些在电子邮件, Slack, Reddit, Twitter等地方看到的网页链接.',
 ONBOARD_secure_1_content__6     :  '养成手动输入地址打开网站的好习惯, 不要通过邮件或者其它途径里链接来打开网站.',
 ONBOARD_secure_1_content__7     :  '[安装AdBlocker(广告拦截器)](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) 并且不要点击搜索引擎页面里的广告 (比如 百度).',
@@ -831,7 +831,7 @@ HELP_15_Title               : '15) Why hasn\'t the account I just created show u
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 
 HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) looks like on etherscan.io ',
+HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
 
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
 HELP_17_Desc_1              : 'This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',

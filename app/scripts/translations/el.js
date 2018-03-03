@@ -168,7 +168,7 @@ ONBOARD_secure_1_title          :  'How To Protect Yourself from Phishers',
 ONBOARD_secure_1_content__1     :  'Phishers send you a message with a link to a website that looks just like MyEtherWallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.',
 ONBOARD_secure_1_content__2     :  'Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige) or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.',
 ONBOARD_secure_1_content__3     :  'Always check the URL: `https://www.myetherwallet.com`.',
-ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC [US]` in green.',
+ONBOARD_secure_1_content__4     :  'Always make sure the URL bar has `MYETHERWALLET LLC` in green.',
 ONBOARD_secure_1_content__5     :  'Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.',
 ONBOARD_secure_1_content__6     :  'Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.',
 ONBOARD_secure_1_content__7     :  '[Install an AdBlocker](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en) and do not click ads on your search engine (e.g. Google).',
@@ -829,7 +829,7 @@ HELP_15_Title               : '15) Γιατί δεν έχει εμφανιστε
 HELP_15_Desc_1              : 'Ένας λογαριασμός εμφανίζεται σε έναν εξερευνητή blockchain μόνο όταν ο λογαριασμός έχει δραστηριότητα&mdash;για παράδειγμα, αφού μεταφέρετε κάποιο ποσό Αιθέρα σε αυτόν. ',
 
 HELP_16_Title               : '16) Πώς ελέγχω το υπόλοιπο του λογαριασμού μου; ',
-HELP_16_Desc_1              : 'Μπορείτε να χρησιμοποιήσετε έναν εξερευνητή blockchain όπως το [etherscan.io](https://etherscan.io/). Επικολλήστε τη διεύθυνσή σας στη γραμμή αναζήτησης και θα ανασύρει τη διεύθυνση και το ιστορικό συναλλαγών σας. Για παράδειγμα, δείτε πώς φαίνεται ο [λογαριασμός μας για δωρέες](https://etherscan.io/address/0x7cb57b5a97eabe94205c07890be4c1ad31e486a8) στο etherscan.io ',
+HELP_16_Desc_1              : 'Μπορείτε να χρησιμοποιήσετε έναν εξερευνητή blockchain όπως το [etherscan.io](https://etherscan.io/). Επικολλήστε τη διεύθυνσή σας στη γραμμή αναζήτησης και θα ανασύρει τη διεύθυνση και το ιστορικό συναλλαγών σας. Για παράδειγμα, δείτε πώς φαίνεται ο [λογαριασμός μας για δωρέες](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) στο etherscan.io ',
 
 HELP_17_Title               : '17) Γιατί δεν εμφανίζεται το υπόλοιπό μου όταν ξεκλειδώνω το πορτοφόλι μου; ',
 HELP_17_Desc_1              : 'Αυτό πιθανότατα οφείλεται στο γεγονός ότι βρίσκεστε πίσω από κάποιο τείχος προστασίας. Το API που χρησιμοποιούμε για να πάρουμε το υπόλοιπο και να μετατρέψουμε το εν λόγω υπόλοιπο συχνά εμποδίζεται από τείχη προστασίας για διάφορους λόγους. Θα εξακολουθείτε να είστε σε θέση να αποστείλετε συναλλαγές, απλά πρέπει να χρησιμοποιήσετε μια διαφορετική μέθοδο για να δείτε το εν λόγω υπόλοιπο, όπως το etherscan.io ',
