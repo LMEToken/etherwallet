@@ -107,7 +107,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to wallet.etherzero.org',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -139,7 +139,7 @@ ONBOARD_blockchain_content__1   :  'The blockchain is like a huge, global, decen
 ONBOARD_blockchain_content__2   :  'It keeps track of who sent how many coins to whom, and what the balance of every account is.',
 ONBOARD_blockchain_content__3   :  'It is stored and maintained by thousands of people (miners) across the globe who have special computers.',
 ONBOARD_blockchain_content__4   :  'The blocks in the blockchain are made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.',
-ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.',
+ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://explorer.etherzero.org), you are seeing data on the blockchain, not in our personal systems.',
 ONBOARD_blockchain_content__6   :  'Again: **we are not a bank**.',
 ONBOARD_interface_title__alt    :  'MEW is an Interface',
 ONBOARD_why_title__alt          :  'But...why does this matter?',
@@ -463,7 +463,7 @@ MYWAL_Content_2             : 'Assicurati di aver **salvato la chiave privata e/
 MYWAL_Content_3             : 'Se vorrai utilizzare questo portafoglio con MyEtherWallet CX in futuro, dovrai ri-aggiungerlo manualmente tramite la chiave privata/JSON e password. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Qui è possibile scaricare diverse versioni delle chiavi private e ristampare il portafoglio cartaceo. Potresti volerlo fare per  [importare il tuo conto in Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Se vuoi controllare il tuo saldo, ti consigliamo di utilizzare uno strumento per esplorare la *blockchain* come [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Qui è possibile scaricare diverse versioni delle chiavi private e ristampare il portafoglio cartaceo. Potresti volerlo fare per  [importare il tuo conto in Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Se vuoi controllare il tuo saldo, ti consigliamo di utilizzare uno strumento per esplorare la *blockchain* come [etherscan.io](https://explorer.etherzero.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Qui è possibile scaricare diverse versioni delle chiavi private e ristampare il portafoglio cartaceo. ',
 VIEWWALLET_SuccessMsg       : 'Perfetto! Questi sono i dettagli del tuo portafoglio. ',
 VIEWWALLET_ShowPrivKey      : '(mostra)',
@@ -812,7 +812,7 @@ HELP_15_Title               : '15) Perché il conto che ho appena creato non ris
 HELP_15_Desc_1              : 'I conti vengono mostrati in quegli strumenti solamente dopo che c\'è stata un\'attività sul conto in questione&mdash;ad esempio, dopo che ci hai trasferito degli ether. ',
 
 HELP_16_Title               : '16) Come faccio a controllare il saldo del mio conto? ',
-HELP_16_Desc_1              : 'Puoi usare uno strumento per l\'esplorazione della *blockchain* come [etherscan.io](https://etherscan.io/). Incolla il tuo indirizzo nella barra di ricerca e vedrai il tuo indirizzo e lo storico delle transazioni. Ad esempio, questo è come si presenta il nostro [conto donazioni](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) su etherscan.io ',
+HELP_16_Desc_1              : 'Puoi usare uno strumento per l\'esplorazione della *blockchain* come [etherscan.io](https://explorer.etherzero.org/). Incolla il tuo indirizzo nella barra di ricerca e vedrai il tuo indirizzo e lo storico delle transazioni. Ad esempio, questo è come si presenta il nostro [conto donazioni](https://explorer.etherzero.org/addr/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) su etherscan.io ',
 
 HELP_17_Title               : '17) Perché non viene mostrato il saldo quando sblocco il mio portafoglio? ',
 HELP_17_Desc_1              : 'Probabilmente perché sei dietro a un firewall. Le API che utilizziamo per ottenere il saldo e convertirlo sono spesso bloccate dai firewall per qualche ragione. Sarai ancora in grado di inviare transazioni, dovrai solo usare un metodo diverso per vedere il tuo saldo, come etherscan.io ',

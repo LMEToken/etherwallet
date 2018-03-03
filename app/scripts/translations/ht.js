@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to wallet.etherzero.org',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -138,7 +138,7 @@ ONBOARD_blockchain_content__1   :  'The blockchain is like a huge, global, decen
 ONBOARD_blockchain_content__2   :  'It keeps track of who sent how many coins to whom, and what the balance of every account is.',
 ONBOARD_blockchain_content__3   :  'It is stored and maintained by thousands of people (miners) across the globe who have special computers.',
 ONBOARD_blockchain_content__4   :  'The blocks in the blockchain are made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.',
-ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.',
+ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://explorer.etherzero.org), you are seeing data on the blockchain, not in our personal systems.',
 ONBOARD_blockchain_content__6   :  'Again: **we are not a bank**.',
 ONBOARD_interface_title__alt    :  'MEW is an Interface',
 ONBOARD_why_title__alt          :  'But...why does this matter?',
@@ -536,7 +536,7 @@ MSG_info2                   : 'METE TI NON W’ NAN KOTE W’ KONN SÈVI AK LI A
 MSG_info3                   : 'METE YON SÈL BON REZON POU MESAJ LA  POU L’ PA SÈVI ANKÒ POU YON LÒT  REZON ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'SA PÈMÈT OU POU W’ PRAN PLIZYÈ VÈZSYON KLE SEKRÈ  YO EPI AK SÒTI BOUS OU A ANKÒ SOU PAPYE. OU DWE FÈ L’ POU [ PRAN KONT OU A NAN GETH/MIST] (http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). SI W’ VLE  WÈ VALÈ KÒB OU A, NOU MANDE W’ POU SÈVI AK YON EKSPLORATÈ POU BLOCKCHAIN TANKOU[etherscan.io](https://etherscan.io/).',
+VIEWWALLET_Subtitle         : 'SA PÈMÈT OU POU W’ PRAN PLIZYÈ VÈZSYON KLE SEKRÈ  YO EPI AK SÒTI BOUS OU A ANKÒ SOU PAPYE. OU DWE FÈ L’ POU [ PRAN KONT OU A NAN GETH/MIST] (http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). SI W’ VLE  WÈ VALÈ KÒB OU A, NOU MANDE W’ POU SÈVI AK YON EKSPLORATÈ POU BLOCKCHAIN TANKOU[etherscan.io](https://explorer.etherzero.org/).',
 VIEWWALLET_Subtitle_Short   : 'SA PÈMÈT OU POU W’ PRAN PLIZYÈ VÈZSYON KLE SEKRÈ  YO EPI POU SÒTI BOUS OU A ANKÒ SOU PAPYE ',
 VIEWWALLET_SuccessMsg       : 'SIKSÈ ! MEN DETAY YO POU BOUS OU A ',
 VIEWWALLET_ShowPrivKey      : '(show)',
@@ -813,7 +813,7 @@ HELP_15_Title               : '15) POUKISA KONT SA M’ SOT KREYE A PA PARÈT NA
 HELP_15_Desc_1              : 'KONT YO PA PARÈT NAN YON EKSPLORATÈ BLOCKCHAIN LÈ YON AKTIVITE FIN FÈT TANKOU, EGZANP, LE N’ TA GEN POU N’ FE YON TRANSFÈ ETHER . ',
 
 HELP_16_Title               : '16) KÒMAN POU M’ VERIFYE LAJAN SOU KONT MWEN AN ? ',
-HELP_16_Desc_1              : 'OU KAPAB SÈVI AK YON EKSPLORATÈ BLOCKCHAIN TANKOU [etherscan.io](https://etherscan.io/). KOLE ADRÈS OU A NAN BA KOT E POU YO CHÈCHE A EPI SA AP È W’ JWENN LAJAN SOU KONT OU A EPI LIS TRANSFÈ W’ YO. EGZANP, MEN SA [KONT DON NOU YO MONTRE](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) SOU  etherscan.io ',
+HELP_16_Desc_1              : 'OU KAPAB SÈVI AK YON EKSPLORATÈ BLOCKCHAIN TANKOU [etherscan.io](https://explorer.etherzero.org/). KOLE ADRÈS OU A NAN BA KOT E POU YO CHÈCHE A EPI SA AP È W’ JWENN LAJAN SOU KONT OU A EPI LIS TRANSFÈ W’ YO. EGZANP, MEN SA [KONT DON NOU YO MONTRE](https://explorer.etherzero.org/addr/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) SOU  etherscan.io ',
 
 HELP_17_Title               : '17) POUKISA LAJAN SOU KONT MWEN AN PA PARÈT LÈ M’ OUVRI BOUS MWEN AN ? ',
 HELP_17_Desc_1              : 'SA KI KA LAKÒZ SA SE PASKE W’ KA DÈYÈ YON FIREWALL. APLIKASYON NOU SÈVI AK LI POU N’ JWENN LAJAN SOU KONT OU A EPI KONVÈTI L’ LI SOUVAN BLOKE AK FIREWALL YO POU PLIZYÈ REZON. W’AP TOUJOU KAPAB  VOYE TRANSFÈ MEN FÒK OU FÈL NAN YON LÒT FASON POU W’ KA WÈ LAJAN SOU KONT OU A, TANKOU etherscan.io ',

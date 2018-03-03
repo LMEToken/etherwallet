@@ -138,7 +138,7 @@ ONBOARD_blockchain_content__1   :  'The blockchain is like a huge, global, decen
 ONBOARD_blockchain_content__2   :  'It keeps track of who sent how many coins to whom, and what the balance of every account is.',
 ONBOARD_blockchain_content__3   :  'It is stored and maintained by thousands of people (miners) across the globe who have special computers.',
 ONBOARD_blockchain_content__4   :  'The blocks in the blockchain are made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.',
-ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.',
+ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://explorer.etherzero.org), you are seeing data on the blockchain, not in our personal systems.',
 ONBOARD_blockchain_content__6   :  'Again: **we are not a bank**.',
 ONBOARD_interface_title__alt    :  'MEW is an Interface',
 ONBOARD_why_title__alt          :  'But...why does this matter?',
@@ -537,7 +537,7 @@ MSG_info2                   : '填入你的暱稱及你使用該暱稱的場合�
 MSG_info3                   : '填入這個訊息的源由來避免被用在其他目的。 ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : '這可以讓你下載不同版本的私鑰並且重新印製出你的紙錢包。你可能會需要這個功能來將你的帳戶[讀入Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)。 如果你想要檢查你的帳號餘額，我們建議你使用區塊鏈瀏覽網頁像是[etherscan.io](https://etherscan.io/)。 ',
+VIEWWALLET_Subtitle         : '這可以讓你下載不同版本的私鑰並且重新印製出你的紙錢包。你可能會需要這個功能來將你的帳戶[讀入Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)。 如果你想要檢查你的帳號餘額，我們建議你使用區塊鏈瀏覽網頁像是[etherscan.io](https://explorer.etherzero.org/)。 ',
 VIEWWALLET_Subtitle_Short   : '這可以讓你下載不同版本的私鑰並且重新印製出你的紙錢包。 ',
 VIEWWALLET_SuccessMsg       : '成功！這些是你的錢包內容。 ',
 VIEWWALLET_ShowPrivKey      : '(顯示)',
@@ -589,7 +589,7 @@ ERROR_37                    : 'Enter valid hex string (0-9, a-f)', // 37
 
 SUCCESS_1                   : '有效的地址 ',
 SUCCESS_2                   : '成功解密錢包 ',
-SUCCESS_3                   : '你的交易已被發布到網路上。這並不表示該交易已被確認或完成。遇到區塊鏈網路流量極大時，你可能需要超過三個小時才能完成交易 1) 在下面確認你的交易狀態。 2) 如果該交易已經等待(pending)數小時或消失，使用 檢查交易狀態 頁面來替換它。 3) 使用 [ETH加油站](https://ethgasstation.info/) 來確認最佳的Gas價格。 4) 存下該筆交易的雜湊值，你可能需要它:   ', //'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [ETH Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:    ', //
+SUCCESS_3                   : '你的交易已被發布到網路上。這並不表示該交易已被確認或完成。遇到區塊鏈網路流量極大時，你可能需要超過三個小時才能完成交易 1) 在下面確認你的交易狀態。 2) 如果該交易已經等待(pending)數小時或消失，使用 檢查交易狀態 頁面來替換它。 3) 使用 [ETH加油站](https://ethgasstation.info/) 來確認最佳的Gas價格。 4) 存下該筆交易的雜湊值，你可能需要它:   ', //'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3)  Save your TX Hash in case you need it later:    ', //
 SUCCESS_4                   : '成功新增你的錢包 ',
 SUCCESS_5                   : '已選擇檔案 ',
 SUCCESS_6                   : '你已經成功連上 ',
@@ -814,7 +814,7 @@ HELP_15_Title               : '15) Why hasn\'t the account I just created show u
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 
 HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
+HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://explorer.etherzero.org/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://explorer.etherzero.org/addr/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
 
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
 HELP_17_Desc_1              : ' This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',

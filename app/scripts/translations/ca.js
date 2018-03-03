@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to wallet.etherzero.org',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -138,7 +138,7 @@ ONBOARD_blockchain_content__1   :  'The blockchain is like a huge, global, decen
 ONBOARD_blockchain_content__2   :  'It keeps track of who sent how many coins to whom, and what the balance of every account is.',
 ONBOARD_blockchain_content__3   :  'It is stored and maintained by thousands of people (miners) across the globe who have special computers.',
 ONBOARD_blockchain_content__4   :  'The blocks in the blockchain are made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.',
-ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.',
+ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://explorer.etherzero.org), you are seeing data on the blockchain, not in our personal systems.',
 ONBOARD_blockchain_content__6   :  'Again: **we are not a bank**.',
 ONBOARD_interface_title__alt    :  'MEW is an Interface',
 ONBOARD_why_title__alt          :  'But...why does this matter?',
@@ -532,7 +532,7 @@ MSG_info2                   : 'Inclou el teu àlies i on el fas servir per tal q
 MSG_info3                   : 'Inclou una raó específica per tal que el missatge no pugui ser reutilitzat per un altre propòsit. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Això et permet descarregar diferents versions de les claus privades i tornar a imprimir la teva cartera de paper. És possible que vulguis fer això per [importar el teu compte a Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Si vols comprovar el teu saldo, recomanem utilitzar un explorador de la blockchain com [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Això et permet descarregar diferents versions de les claus privades i tornar a imprimir la teva cartera de paper. És possible que vulguis fer això per [importar el teu compte a Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Si vols comprovar el teu saldo, recomanem utilitzar un explorador de la blockchain com [etherscan.io](https://explorer.etherzero.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Això et permet descarregar diferents versions de les claus privades i tornar a imprimir la teva cartera de paper. ',
 VIEWWALLET_SuccessMsg       : 'Enhorabona! Aquests són els detalls de la teva cartera. ',
 VIEWWALLET_ShowPrivKey      : '(mostra)',
@@ -594,7 +594,7 @@ GETH_NegativeValue              :  '(geth-07) Valor negatiu. Negative value.',
 GETH_Nonce                      :  "(geth-08) Nonce massa baix. This TX's [nonce](https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html) is too low. Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html).",
 GETH_NonExistentAccount         :  '(geth-09) El compte no existeix o el saldo és massa baix. Account does not exist or account balance too low',
 
-PARITY_AlreadyImported          :  "(parity-01) Ja s'havia importat la transacció amb el mateix hash. (A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [etherscan.io](https://etherscan.io) & wait 10 minutes before attempting to send again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html))",
+PARITY_AlreadyImported          :  "(parity-01) Ja s'havia importat la transacció amb el mateix hash. (A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [etherscan.io](https://explorer.etherzero.org) & wait 10 minutes before attempting to send again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html))",
 PARITY_GasLimitExceeded         :  "(parity-02) El cost de la transacció sobrepassa el límit actual de gas. Limit: {}, tens: {}. Intenta disminuir el gas proporcionat. (Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html))",
 PARITY_InsufficientBalance      :  "(parity-03) Saldo insuficient. El compte d\'origen que estàs utilitzant no té prou saldo. Obligatori {} wei i tens: {} wei. (Insufficient balance. The account you tried to send transaction from does not have enough funds. If you believe this is in error, try using the 'Send Entire Balance' button, or pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html))",
 PARITY_InsufficientGasPrice     :  "(parity-04) La comissió de la transacció és massa baixa. No satisfà la comissió mínima dle node (minimal: {}, got: {}). Intenta augmentar la comissió. (There is another transaction with same nonce in the queue, or the transaction fee is too low. Try incrementing the nonce by clicking the Generate button again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
@@ -810,7 +810,7 @@ HELP_15_Title               : '15) Why hasn\'t the account I just created show u
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 
 HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
+HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://explorer.etherzero.org/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://explorer.etherzero.org/addr/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
 
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
 HELP_17_Desc_1              : ' This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',

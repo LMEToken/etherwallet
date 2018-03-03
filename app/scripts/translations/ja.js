@@ -111,7 +111,7 @@ EOS_09                          :  'ＥＯＳトークンを請求', /*Claim EOS
 EOS_10                          :  '`claimAll`を選択。', /*Select `claimAll`.*/
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'いらっしゃいませ！ MyEtherWallet.com へようこそ！', /*Welcome to MyEtherWallet.com*/
+ONBOARD_welcome_title           :  'いらっしゃいませ！ MyEtherWallet.com へようこそ！', /*Welcome to wallet.etherzero.org*/
 ONBOARD_welcome_content__1      :  '安全のためにご理解ください🙏 。', /*Please take some time to understand this for your own safety. 🙏*/
 ONBOARD_welcome_content__2      :  'これらの警告をよくご覧いただきませんと、**資産が盗まれる**ことになります。', /*Your funds will be stolen if you do not heed these warnings.*/
 ONBOARD_welcome_content__3      :  'わずらわしい説明と重々に承知いたしております。申し訳ございません。', /*We know this click-through stuff is annoying. We are sorry.*/
@@ -143,7 +143,7 @@ ONBOARD_blockchain_content__1   :  'ブロックチェーンは、世界共通�
 ONBOARD_blockchain_content__2   :  '誰が誰にコインをいくら送ったとか、どの口座にいくら、などの履歴を全て持っています。', /*It keeps track of who sent how many coins to whom, and what the balance of every account is.*/
 ONBOARD_blockchain_content__3   :  '何千もいる特殊なコンピューターを持った人（発掘者）によって記録と管理が行われます。', /*It is stored and maintained by thousands of people (miners) across the globe who have special computers.*/
 ONBOARD_blockchain_content__4   :  'ブロックチェーンのなかのブロックはMyEtherWallet, MetaMask, Exodus, Mist, Geth, Parityなど至る所で行われている個々の処理や取引で作られています。', /*The blocks in the blockchain are made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.*/
-ONBOARD_blockchain_content__5   :  'MyEtherWalletや[etherscan.io](https://etherscan.io)で残高や処理を見た時、見えるのは私たちのシステムの中ではなく、ブロックチェーンにあるデータです。', /*When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.*/
+ONBOARD_blockchain_content__5   :  'MyEtherWalletや[etherscan.io](https://explorer.etherzero.org)で残高や処理を見た時、見えるのは私たちのシステムの中ではなく、ブロックチェーンにあるデータです。', /*When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://explorer.etherzero.org), you are seeing data on the blockchain, not in our personal systems.*/
 ONBOARD_blockchain_content__6   :  'もう一度： **私たちは金融機関ではありません。**', /*Again: **we are not a bank**.*/
 ONBOARD_interface_title__alt    :  'ＭＥＷは共用の利用者窓口　', /*MEW is an Interface*/
 ONBOARD_why_title__alt          :  'でも...なんでそれがそんなに大事？', /*But...why does this matter?*/
@@ -324,7 +324,7 @@ GETH_NegativeValue          : '(geth-07) 負の値です Negative value.',
 GETH_Nonce                  : '(geth-08) Nonce が足りません This TX\'s [nonce](https://myetherwallet.github.io/knowledge-base/transactions/what-is-nonce.html) is too low. Try incrementing the nonce by pressing the Generate button again, or [replace the pending transaction](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html).',
 GETH_NonExistentAccount     : '(geth-09) アカウントが存在しない、あるいはその残高不足です Account does not exist or account balance too low',
 
-PARITY_AlreadyImported      : "(parity-01) 同じハッシュのトランザクションがすでにインポートされています。 A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [etherscan.io](https://etherscan.io) & wait 10 minutes before attempting to send again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
+PARITY_AlreadyImported      : "(parity-01) 同じハッシュのトランザクションがすでにインポートされています。 A transaction with the same hash was already imported. It was probably already broadcast. To avoid duplicate transactions, check your address on [etherscan.io](https://explorer.etherzero.org) & wait 10 minutes before attempting to send again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
 PARITY_GasLimitExceeded     : "(parity-02) トランザクションコストがガスリミットを超過しました。 リミット： {}, 現在: {}. ガス供給量を減らして見てください。",　　　/* increasing gas limit???  Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)*/
 PARITY_InsufficientBalance  : "(parity-03) ファンドが足りません。 トランザクション送出元のファンドが不足しています。 必要量 {} で 現在： {}　　です。 Insufficient balance. The account you tried to send transaction from does not have enough funds. If you believe this is in error, try using the 'Send Entire Balance' button, or pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
 PARITY_InsufficientGasPrice : "(parity-04) トランザクションフィー不足です。 ノードの最小 fee を満たしていません。 (minimal: {}, got: {}). fee を増やしてください。 There is another transaction with same nonce in the queue, or the transaction fee is too low. Try incrementing the nonce by clicking the Generate button again. [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)",
@@ -537,7 +537,7 @@ TranslatorAddr_2            : '',
 TranslatorAddr_3            : '',
 TranslatorAddr_4            : '',
 TranslatorAddr_5            : '',
-TranslatorName_1            : '[sekisanchi.eth](https://etherscan.io/address/0xf991119eea62eee1a6fdaa7f621e91a42f325fce) ', /* Translator 1: Kazunori Seki / 関一典 */
+TranslatorName_1            : '[sekisanchi.eth](https://explorer.etherzero.org/addr/0xf991119eea62eee1a6fdaa7f621e91a42f325fce) ', /* Translator 1: Kazunori Seki / 関一典 */
 TranslatorName_2            : '', /* Translator 2: */
 TranslatorName_3            : '', /* Translator 3: */
 TranslatorName_4            : '', /* Translator 4: */
@@ -563,7 +563,7 @@ TXFEE_Desc                  : 'この処理料金は自分の処理をブロッ�
 
 VIEWWALLET_HidePrivKey      : '(hide)',
 VIEWWALLET_ShowPrivKey      : '(show)',
-VIEWWALLET_Subtitle         : '異なったバージョンの秘密鍵をダウンロードしたり、お財布紙情報を再印刷することができます。[import your account into Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)する時に必要です。残高をチェックするためには、[etherscan.io](https://etherscan.io/)のようなブロックチェーンエクスプローラーサービスを使う事をおすすめします。 ',
+VIEWWALLET_Subtitle         : '異なったバージョンの秘密鍵をダウンロードしたり、お財布紙情報を再印刷することができます。[import your account into Geth/Mist](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/)する時に必要です。残高をチェックするためには、[etherscan.io](https://explorer.etherzero.org/)のようなブロックチェーンエクスプローラーサービスを使う事をおすすめします。 ',
 VIEWWALLET_Subtitle_Short   : '異なったバージョンの秘密鍵をダウンロードしたり、お財布紙情報を再印刷することができます。 ',
 VIEWWALLET_SuccessMsg       : '成功しました! お財布の詳細は以下の通りです。 ',
 
@@ -758,7 +758,7 @@ HELP_14_Desc_1              : 'While the mouse moving thing is clever and we und
 HELP_15_Title               : '15) Why hasn\'t the account I just created show up in the blockchain explorer? (ie: etherchain, etherscan) ',
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
+HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://explorer.etherzero.org/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://explorer.etherzero.org/addr/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
 HELP_17_Desc_1              : 'This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',
 HELP_18_Title               : '18) Where is my geth wallet file? ',

@@ -3,20 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>MyEtherWallet.com</title>
-<meta property="og:title" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta property="og:site_name" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta name="twitter:title" content="MyEtherWallet.com: Your Key to Ethereum">
-<meta name="apple-mobile-web-app-title" content="MyEtherWallet.com: Your Key to Ethereum">
-<link href="https://www.myetherwallet.com" rel="canonical">
-<meta content="https://www.myetherwallet.com" property="og:url">
-<meta content="https://www.myetherwallet.com" name="twitter:url">
+<title>EtherZeroWallet</title>
+<meta property="og:title" content="wallet.etherzero.org: Your Key to ETZ">
+<meta property="og:site_name" content="wallet.etherzero.org: Your Key to ETZ">
+<meta name="twitter:title" content="MyEtherWallet.com: Your Key to ETZ">
+<meta name="apple-mobile-web-app-title" content="MyEtherWallet.com: Your Key to ETZ">
+<link href="https://wallet.etherzero.org" rel="canonical">
+<meta content="https://wallet.etherzero.org" property="og:url">
+<meta content="https://wallet.etherzero.org" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
-<meta name="description" content="MyEtherWallet (MEW) is a free, open-source, client-side interface for generating Ethereum wallets & more. Interact with the Ethereum blockchain easily & securely.">
-<meta property="og:description"  content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
-<meta name="twitter:description" content="Free, open-source, client-side Ethereum wallet. Enabling you to interact with the blockchain easily & securely.">
+<meta name="description" content="EtherZeroWallet is a free, open-source, client-side interface for generating ETZ wallets & more. Interact with the ETZ blockchain easily & securely.">
+<meta property="og:description"  content="Free, open-source, client-side ETZ wallet. Enabling you to interact with the blockchain easily & securely.">
+<meta name="twitter:description" content="Free, open-source, client-side ETZ wallet. Enabling you to interact with the blockchain easily & securely.">
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
 <meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
@@ -26,13 +26,13 @@
 <link href="images/fav/manifest.json" rel="manifest">
 <link href="images/fav/safari-pinned-tab.svg" rel="mask-icon" color="#2f99b0">
 <link href="images/fav/favicon.ico" rel="shortcut icon">
-<meta name="apple-mobile-web-app-title" content="MyEtherWallet &middot; Your Key to Ethereum">
-<meta name="application-name" content="MyEtherWallet">
+<meta name="apple-mobile-web-app-title" content="EtherZeroWallet &middot; Your Key to ETZ">
+<meta name="application-name" content="EtherZeroWallet">
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
-<meta property="og:url" content="https://www.myetherwallet.com" />
-<meta property="og:title" content="MyEtherWallet.com  &middot; Your Key to Ethereum" />
+<meta property="og:url" content="https://wallet.etherzero.org" />
+<meta property="og:title" content="wallet.etherzero.org  &middot; Your Key to ETZ" />
 <meta property="og:type" content="website">
 <meta property="og:image" content="/images/myetherwallet-logo-banner.png" />
 <meta property="og:image" content="/images/myetherwallet-logo.png" />
@@ -48,17 +48,11 @@
 "@type" : "Organization",
 "name" : "MyEtherWallet",
 "legalName" : "MyEtherWallet LLC",
-"url" : "https://www.myetherwallet.com/",
-"contactPoint" : [{
-  "@type" : "ContactPoint",
-  "email" : "support@myetherwallet.com",
-  "url"   : "https://myetherwallet.com",
-  "contactType" : "customer service"
-}],
-"logo" : "https://www.myetherwallet.com/images/myetherwallet-logo.png",
-"description": "MyEtherWallet.com is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely.",
+"url" : "https://wallet.etherzero.org/",
+"logo" : "https://wallet.etherzero.org/images/myetherwallet-logo.png",
+"description": "wallet.etherzero.org is a free, open-source, client-side interface for generating ETZ wallets &amp; more. Interact with the ETZ blockchain easily &amp; securely.",
 "sameAs" : [
-  "https://www.myetherwallet.com/",
+  "https://wallet.etherzero.org/",
   "https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
   "https://www.facebook.com/MyEtherWallet/",
   "https://twitter.com/myetherwallet",
@@ -76,21 +70,6 @@
 <header class="{{curNode.name}} {{curNode.service}} {{curNode.service}} nav-index-{{gService.currentTab}}" aria-label="header" ng-controller='tabsCtrl' >
 
 @@if (site === 'mew' ) {
-  <div class="small announcement annoucement-danger">
-    <div class="container">
-      DON'T GET PHISHED, please! 🎣 Thank you! 🤗
-      <br />
-      1. BOOKMARK <a href="https://www.myetherwallet.com"> MYETHERWALLET.COM </a>
-      <span class="hidden-xs">
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        2. INSTALL <a href="https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn" target="_blank" rel="noopener noreferrer">EAL</a>
-        or
-        <a href="https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html" target="_blank" rel="noopener noreferrer">MetaMask</a>
-        or
-        <a href="https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige" target="_blank" rel="noopener noreferrer">Cryptonite</a>
-      </span>
-    </div>
-  </div>
 }
 
 <section class="bg-gradient header-branding">
@@ -141,45 +120,6 @@
         <li role="separator" class="divider"></li>
         <li><a data-toggle="modal" data-target="#disclaimerModal" translate="FOOTER_4"> Disclaimer </a></li>
       </ul>
-    </span>
-
-    <span class="dropdown dropdown-gas" ng-cloak>
-      <a tabindex="0" aria-haspopup="true" aria-label="adjust gas price" class="dropdown-toggle  btn btn-white" ng-click="dropdownGasPrice = !dropdownGasPrice">
-        <span translate="OFFLINE_Step2_Label_3">Gas Price</span>:
-          {{gas.value}} Gwei
-          <i class="caret"></i>
-      </a>
-      <ul class="dropdown-menu" ng-show="dropdownGasPrice">
-        <div class="header--gas">
-          <span translate="OFFLINE_Step2_Label_3">Gas Price</span>:
-          {{gas.value}} Gwei
-          <input type="range" ng-model="gas.value" min="{{gas.min}}" max="{{gas.max}}" step="{{gas.step}}" ng-change="gasChanged()"/>
-          <p class="small col-xs-4 text-left"> <!--translate="GAS_Price_1"-->
-            Really, really slow
-          </p>
-          <p class="small col-xs-4 text-center"> <!--translate="GAS_Price_2"-->
-            Maybe Fast?
-          </p>
-          <p class="small col-xs-4 text-right"> <!--translate="GAS_Price_3"-->
-            Fast
-          </p>
-          <br />
-          <p class="small" style="white-space:normal;font-weight:300;margin: 2rem 0 0;" translate="GAS_PRICE_Desc"></p>
-          <a class="small"
-             translate="x_ReadMore"
-             href="https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html"
-             target="_blank"
-             rel="noopener noreferrer"></a>
-        </div>
-      </ul>
-      <p class="dropdown-gas__msg"
-         ng-show="gasPriceMsg"
-         ng-hide="ajaxReq.type!='ETH'">
-        The network is really full right now. Check
-        <a href="https://ethgasstation.info/"
-           target="_blank" rel="noopener noreferrer">Eth Gas Station</a>
-        for gas price to use.
-      </p>
     </span>
 
     <!-- Warning: The separators you see on the frontend are in styles/etherwallet-custom.less. If you add / change a node, you have to adjust these. Ping tayvano if you're not a CSS wizard -->
@@ -236,6 +176,7 @@
             <a tabindex="0" aria-label="nav item: {{tab.name | translate}}" translate="{{tab.name}}"></a>
       </li>
       }
+      <!--
       <li class="nav-item help">
         <a href="https://myetherwallet.github.io/knowledge-base/" target="_blank" rel="noopener noreferrer">
           <span translate="NAV_Help">
@@ -243,6 +184,7 @@
           </span>
         </a>
       </li>
+      -->
     </ul>
   </div>
   <a aria-hidden="true"

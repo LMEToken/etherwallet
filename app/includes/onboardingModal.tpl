@@ -10,7 +10,7 @@
         <article class="onboarding__modal" ng-show="showOnboardSlide==1">
           <h3 class="onboarding__title">
             <span translate="ONBOARD_welcome_title">
-              Welcome to MyEtherWallet.com
+              Welcome to wallet.etherzero.org
             </span>
             <br />
             <small translate="ONBOARD_welcome_content__3">
@@ -177,7 +177,7 @@
                   It is made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.
                 </li>
                 <li translate="ONBOARD_blockchain_content__5">
-                  When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.
+                  When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://explorer.etherzero.org), you are seeing data on the blockchain, not in our personal systems.
                 </li>
                 <li translate="ONBOARD_blockchain_content__6">
                    Again: <strong>we are not a bank</strong>.

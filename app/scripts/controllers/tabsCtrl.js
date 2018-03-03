@@ -6,8 +6,8 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
     $scope.customNodeModal = document.getElementById('customNodeModal') ? new Modal(document.getElementById('customNodeModal')) : null;
     $scope.Validator = Validator;
     $scope.nodeList = nodes.nodeList;
-    $scope.defaultNodeKey = 'eth_mew';
-    $scope.customNode = { options: 'eth', name: '', url: '', port: '', httpBasicAuth: null, eip155: false, chainId: '' };
+    $scope.defaultNodeKey = 'etz_mainnet';
+    $scope.customNode = { options: 'etz', name: '', url: '', port: '', httpBasicAuth: null, eip155: false, chainId: '' };
     $scope.customNodeCount = 0;
     $scope.nodeIsConnected = true;
     $scope.gasPriceMsg = false;
@@ -91,7 +91,7 @@ var tabsCtrl = function($scope, globalService, $translate, $sce) {
             key: key
         }));
         if (nodes.ensNodeTypes.indexOf($scope.curNode.type) == -1) $scope.tabNames.ens.cx = $scope.tabNames.ens.mew = false;
-        if (nodes.domainsaleNodeTypes.indexOf($scope.curNode.type) == -1) $scope.tabNames.domainsale.cx = $scope.tabNames.domainsale.mew = false;
+        // if (nodes.domainsaleNodeTypes.indexOf($scope.curNode.type) == -1) $scope.tabNames.domainsale.cx = $scope.tabNames.domainsale.mew = false;
         else $scope.tabNames.ens.cx = $scope.tabNames.ens.mew = true;
         ajaxReq.getCurrentBlock(function(data) {
             if (data.error) {

@@ -106,7 +106,7 @@ EOS_09                          :  'Claim EOS Tokens',
 EOS_10                          :  'Select `claimAll`.',
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'Welcome to MyEtherWallet.com',
+ONBOARD_welcome_title           :  'Welcome to wallet.etherzero.org',
 ONBOARD_welcome_content__1      :  'Please take some time to understand this for your own safety. 🙏',
 ONBOARD_welcome_content__2      :  'Your funds will be stolen if you do not heed these warnings.',
 ONBOARD_welcome_content__3      :  'We know this click-through stuff is annoying. We are sorry.',
@@ -138,7 +138,7 @@ ONBOARD_blockchain_content__1   :  'The blockchain is like a huge, global, decen
 ONBOARD_blockchain_content__2   :  'It keeps track of who sent how many coins to whom, and what the balance of every account is.',
 ONBOARD_blockchain_content__3   :  'It is stored and maintained by thousands of people (miners) across the globe who have special computers.',
 ONBOARD_blockchain_content__4   :  'The blocks in the blockchain are made up of all the individual transactions sent from MyEtherWallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.',
-ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://etherscan.io), you are seeing data on the blockchain, not in our personal systems.',
+ONBOARD_blockchain_content__5   :  'When you see your balance on MyEtherWallet.com or view your transactions on [etherscan.io](https://explorer.etherzero.org), you are seeing data on the blockchain, not in our personal systems.',
 ONBOARD_blockchain_content__6   :  'Again: **we are not a bank**.',
 ONBOARD_interface_title__alt    :  'MEW is an Interface',
 ONBOARD_why_title__alt          :  'But...why does this matter?',
@@ -466,7 +466,7 @@ MYWAL_Content_2             : 'Győződj meg róla, hogy **elmentetted a privát
 MYWAL_Content_3             : 'Ha használni akarod ezt a tárcát a MyEtherWallet CX-szel a jövőben, manuálisan újra hozzá kell majd adnod a privát kulcs/JSON-nal és jelszóval. ',
 
 /* View Wallet Details */
-VIEWWALLET_Subtitle         : 'Ez lehetővé teszi számodra, hogy különböző változatú privát kulcsokat tölts le és újranyomtasd a papírtárcádat.  Ezt megteheted úgy, hogy [importálod a számládat a Geth/Mist-be](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Ha ellenőrizni akarod a számládat, azt ajánljuk, hogy használj blokklánc explorert mint az [etherscan.io](https://etherscan.io/). ',
+VIEWWALLET_Subtitle         : 'Ez lehetővé teszi számodra, hogy különböző változatú privát kulcsokat tölts le és újranyomtasd a papírtárcádat.  Ezt megteheted úgy, hogy [importálod a számládat a Geth/Mist-be](http://ethereum.stackexchange.com/questions/465/how-to-import-a-plain-private-key-into-geth/). Ha ellenőrizni akarod a számládat, azt ajánljuk, hogy használj blokklánc explorert mint az [etherscan.io](https://explorer.etherzero.org/). ',
 VIEWWALLET_Subtitle_Short   : 'Ez lehetővé teszi számodra, hogy különböző változatú privát kulcsokat tölts le és újranyomtasd a papírtárcádat. ',
 VIEWWALLET_SuccessMsg       : 'Sikerült! Itt vannak a tárcád részletei. ',
 VIEWWALLET_ShowPrivKey      : '(show)',
@@ -598,7 +598,7 @@ ERROR_37                    : 'Enter valid hex string (0-9, a-f)', // 37
 
 SUCCESS_1                   : 'Érvényes cím ',
 SUCCESS_2                   : 'Tárca sikeresen dekódolva ',
-SUCCESS_3                   : 'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [ETH Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:    ', //'Tranzakció elküldve. TX Hash ',
+SUCCESS_3                   : 'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3)  Save your TX Hash in case you need it later:    ', //'Tranzakció elküldve. TX Hash ',
 SUCCESS_4                   : 'Tárcád sikeresen hozzáadva ',
 SUCCESS_5                   : 'File Selected ',
 SUCCESS_6                   : 'You are successfully connected ',
@@ -822,7 +822,7 @@ HELP_15_Title               : '15) Why hasn\'t the account I just created show u
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 
 HELP_16_Title               : '16) How do I check the balance of my account? ',
-HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://etherscan.io/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://etherscan.io/address/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
+HELP_16_Desc_1              : 'You can use a blockchain explorer like [etherscan.io](https://explorer.etherzero.org/). Paste your address into the search bar and it will pull up your address and transaction history. For example, here\'s what our [donation account](https://explorer.etherzero.org/addr/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D) looks like on etherscan.io ',
 
 HELP_17_Title               : '17) Why isn\'t my balance showing up when I unlock my wallet? ',
 HELP_17_Desc_1              : 'This is most likely due to the fact that you are behind a firewall. The API that we use to get the balance and convert said balance is often blocked by firewalls for whatever reason. You will still be able to send transactions, you just need to use a different method to see said balance, like etherscan.io ',
