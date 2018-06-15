@@ -299,6 +299,7 @@ x_Keystore                  : 'Keystore Fil (UTC / JSON · Rekomenderad · Krypt
 x_Keystore2                 : 'Keystore Fil (UTC / JSON) ',
 x_KeystoreDesc              : 'Den här Keystore filen matchar formatet som används av Mist så du kan enkelt importera det i framtiden. Det är det rekommenderade format att hämta för backup. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Mnemonic Phrase ',
 x_Password                  : 'Lösenord ',
 x_Print                     : 'Skriv Ut Pappers Plånbok ',
@@ -363,6 +364,7 @@ ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.
 ADD_Ledger_scan             : 'Connect to Ledger Wallet ',
 
 ADD_MetaMask                : 'Connect to MetaMask ',
+ADD_GoETZ                   : 'Connect to GoETZ ',
 
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Connect to TREZOR ',

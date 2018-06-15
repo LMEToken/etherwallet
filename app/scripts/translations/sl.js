@@ -299,6 +299,7 @@ x_Keystore                  : 'Datoteka za Shrambo ključa Keystore (UTC / JSON 
 x_Keystore2                 : 'Datoteka za Shrambo ključa Keystore (UTC / JSON) ',
 x_KeystoreDesc              : 'Ta datoteka za shrambo osebnega ključa Keystore se ujema s formatom datoteke, ki jo uporabljata programa Mist, kar pomeni da ga lahko v prihodnosti enostavno izvozite iz te internetne strani in uvozite v Mist ali Geth. Priporočamo vam da to datoteko prenesete na vaš računalnik in jo shranite na varnem mestu. Za dodatno varnost priporočamo, da datoteko shranite na večih napravah. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Mnemonic Phrase ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : 'Geslo ',
@@ -384,6 +385,7 @@ ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.
 ADD_Ledger_scan             : 'Connect to Ledger Wallet ',
 
 ADD_MetaMask                : 'Connect to MetaMask ',
+ADD_GoETZ                   : 'Connect to GoETZ ',
 
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Connect to TREZOR ',

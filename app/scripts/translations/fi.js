@@ -299,6 +299,7 @@ x_Keystore                  : 'Avainsäilö Tiedosto (UTC / JSON · Suositeltu �
 x_Keystore2                 : 'Avainsäilö Tiedosto (UTC / JSON) ',
 x_KeystoreDesc              : 'Tämä Avainsäilö tiedosto vastaa sitä tiedostoformaattia jota Mist käyttävät, joten voit helposti importata sen tulevaisuudessa. Se on suositeltu tiedostomuoto ladata ja varmuuskopioida. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Mnemonic Phrase ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : 'Salasana ',
@@ -558,7 +559,7 @@ ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.
 ADD_Ledger_scan             : 'Connect to Ledger Wallet ',
 
 ADD_MetaMask                : 'Connect to MetaMask ',
-
+ADD_GoETZ                   : 'Connect to GoETZ',
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Connect to TREZOR ',
 ADD_Trezor_select           : 'This is a TREZOR seed ',

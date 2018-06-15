@@ -297,6 +297,7 @@ x_Keystore                  : 'File Keystore (UTC / JSON · Consigliato · Critt
 x_Keystore2                 : 'File Keystore (UTC / JSON) ',
 x_KeystoreDesc              : 'Questo file Keystore è compatibile con il formato usato da Mist, in modo da poterlo facilmente importare in futuro. È il file consigliato da scaricare e conservare. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Frase mnemonica ',
 x_ParityPhrase              : 'Frase di Parity ',
 x_Password                  : 'Password ',
@@ -488,6 +489,7 @@ ADD_Ledger_4                : 'Se non c\'è l\'opzione per il supporto browser n
 ADD_Ledger_scan             : 'Collegati al Ledger Wallet ',
 
 ADD_MetaMask                : 'Collegati a MetaMask ',
+ADD_GoETZ                   : 'Collegati a GoETZ',
 
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Collegati al TREZOR ',

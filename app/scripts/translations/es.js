@@ -296,6 +296,7 @@ x_Keystore                  : 'Archivo Keystore (UTC / JSON · Recomendado · En
 x_Keystore2                 : 'Archivo Keystore (UTC / JSON) ',
 x_KeystoreDesc              : 'Este archivo Keystore/JSON concuerda con el formato usado por Mist para una fácil importación en el futuro. Es el archivo recomendado para descargar y guardar como copia de seguridad. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Frase mnemotécnica ',
 x_ParityPhrase              : 'Frase de Parity ',
 x_Password                  : 'Contraseña ',
@@ -550,7 +551,7 @@ ADD_Ledger_0b               : 'Volver a abrir MyEtherWallet usando [Chrome](http
 ADD_Ledger_scan             : 'Conectar a Ledger Wallet ',
 
 ADD_MetaMask                : 'Connectar a MetaMask ',
-
+ADD_GoETZ                   : 'Connectar a GoETZ',
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Conectar a TREZOR ',
 ADD_Trezor_select           : 'Esto es una semilla TREZOR ',

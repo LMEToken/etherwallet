@@ -295,6 +295,7 @@ x_Keystore                  : 'Fitxer Keystore (UTC / JSON · Recomanat · Xifra
 x_Keystore2                 : 'Fitxer Keystore (UTC / JSON) ',
 x_KeystoreDesc              : 'Aquest fitxer Keystore coincideix amb el format que utilitza Mist perquè pugui importar-lo fàcilment en el futur. És el fitxer recomanat per descarregar i fer una còpia de seguretat. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Frase Mnemònica',
 x_ParityPhrase              : 'Frase de Parity ',
 x_Password                  : 'Contrasenya ',
@@ -358,6 +359,7 @@ ADD_Ledger_0b               : 'Torna a obrir MyEtherWallet utilitzant [Chrome](h
 ADD_Ledger_scan             : 'Connecta a Ledger Wallet ',
 
 ADD_MetaMask                : 'Connecta to MetaMask ',
+ADD_GoETZ                   : 'Connecta to GoETZ',
 
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Connecta a TREZOR ',

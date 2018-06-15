@@ -296,6 +296,7 @@ x_Keystore                  : 'Plik Keystore (UTC / JSON · Zalecany · Szyfrowa
 x_Keystore2                 : 'Plik Keystore (UTC / JSON) ',
 x_KeystoreDesc              : 'Ten plik Keystore odpowiada formatowi stosowanemu przez Mist, więc może być w prosty sposób zaimportowany w przyszłości. Jest to zalecana forma pliku do pobrania i przechowywania jako kopii zapasowej. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Mnemonik ',
 x_ParityPhrase              : 'Fraza Parity ',
 x_Password                  : 'Hasło ',
@@ -505,6 +506,7 @@ ADD_Ledger_0b               : 'Otwórz MyEtherWallet w [Chrome](https://www.goog
 ADD_Ledger_scan             : 'Połącz z Ledger Wallet ',
 
 ADD_MetaMask                : 'Połącz z MetaMask ',
+ADD_GoETZ                   : 'Połącz z GoETZ ',
 
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Połącz z TREZOR ',

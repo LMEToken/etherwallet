@@ -296,6 +296,7 @@ x_Keystore                  : 'Keystore 파일 (UTC / JSON · 권장 · 암호�
 x_Keystore2                 : 'Keystore 파일 (UTC / JSON) ',
 x_KeystoreDesc              : '이 Keystore / JSON 파일은 Mist에서 사용하는 형식과 일치하므로 나중에 쉽게 가져올 수 있습니다. 다운로드하고 백업하는 것을 권장합니다. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Mnemonic 문구 ',
 x_ParityPhrase              : 'Parity 문구 ',
 x_Password                  : '비밀번호 ',
@@ -359,7 +360,7 @@ ADD_Ledger_0b               : 'MyEtherWallet을 [Chrome](https://www.google.com/
 ADD_Ledger_scan             : 'Ledger Wallet 에 연결하기 ',
 
 ADD_MetaMask                : 'Connect to MetaMask ',
-
+ADD_GoETZ                   : 'Connect to GoETZ ',
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'TREZOR 에 연결하기 ',
 x_DigitalBitbox             : 'Digital Bitbox ',

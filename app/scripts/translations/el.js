@@ -298,6 +298,7 @@ x_Keystore                  : 'Αρχείο Keystore (UTC / JSON · Συνιστ
 x_Keystore2                 : 'Αρχείο Keystore (UTC / JSON) ',
 x_KeystoreDesc              : 'Αυτό το αρχείο Keystore έχει την ίδια μορφή που χρησιμοποιείται από το Mist ώστε να μπορείτε εύκολα να το εισάγετε στο μέλλον. Είναι το συνιστώμενο αρχείο για λήψη και δημιουργία αντιγράφου ασφαλείας. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Μνημονικό ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : 'Συνθηματικό ',
@@ -551,6 +552,7 @@ ADD_Ledger_0b               : 'Ξανα-ανοίξτε το MyEtherWallet χρη
 ADD_Ledger_scan             : 'Συνδεθείτε στο Ledger Wallet ',
 
 ADD_MetaMask                : 'Συνδεθείτε στο MetaMask ',
+ADD_GoETZ                   : 'Συνδεθείτε στο GoETZ',
 
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Συνδεθείτε στο TREZOR ',

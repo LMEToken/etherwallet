@@ -300,6 +300,7 @@ x_Keystore                  : 'Keystore Súbor (UTC / JSON · Odporúčané · �
 x_Keystore2                 : 'Keystore Súbor (UTC / JSON) ',
 x_KeystoreDesc              : 'Tento Keystore súbor je rovnakého formatu ako  Mist takže ho budete môcť jednoducho importovať. Tento subor odporúčame stiahnuť a zálohovať. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Mnemonic Phrase (MetaMask / Jaxx ) ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : 'Heslo ',
@@ -494,6 +495,7 @@ ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.
 ADD_Ledger_scan             : 'Connect to Ledger Wallet ',
 
 ADD_MetaMask                : 'Connect to MetaMask ',
+ADD_GoETZ                   : 'Connect to GoETZ ',
 
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Connect to TREZOR ',

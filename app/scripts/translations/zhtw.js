@@ -299,6 +299,7 @@ x_Keystore                  : 'Keystore 檔 (UTC / JSON · 推薦 · 經過加�
 x_Keystore2                 : 'Keystore 檔 (UTC / JSON) ',
 x_KeystoreDesc              : '此Keystore檔和Mist錢包相容，因此你可以輕鬆地匯入錢包。我們推薦你下載並備份此檔案。 ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : '助憶口令 ',
 x_ParityPhrase              : 'Parity口令 ',
 x_Password                  : '密碼 ',
@@ -361,7 +362,8 @@ ADD_Ledger_4                : '如果在設定選項中找不到瀏覽器支援�
 ADD_Ledger_0b               : '以 [Chrome](https://www.google.com/chrome/browser/desktop/) 或 [Opera](https://www.opera.com/) 瀏覽器重新開啟MyEtherWallet',
 ADD_Ledger_scan             : '連接至 Ledger Wallet ',
 
-ADD_MetaMask                : 'Connect to MetaMask ',
+ADD_MetaMask                : '連接至 MetaMask ',
+ADD_GoETZ                   : '連接至 GoETZ ',
 
 x_Trezor                    : 'TREZOR 錢包 ',
 ADD_Trezor_scan             : '連接至 TREZOR ',

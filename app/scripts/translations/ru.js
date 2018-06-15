@@ -299,6 +299,7 @@ x_Keystore                  : 'Файл Keystore (UTC / JSON · рекоменд
 x_Keystore2                 : 'Файл Keystore (UTC / JSON) ',
 x_KeystoreDesc              : 'Этот файл Keystore использует формат совместимый с Mist. Вы сможете в будущем импортировать его. Рекомендуется скачать этот файл и сделать резервную копию. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Кодовая фраза ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : 'Пароль ',
@@ -554,6 +555,7 @@ ADD_Ledger_0b               : 'Перезапустите MyEtherWallet с бр�
 ADD_Ledger_scan             : 'Подключиться к Ledger Wallet ',
 
 ADD_MetaMask                : 'Connect to MetaMask ',
+ADD_GoETZ                   : 'Connect to GoETZ ',
 
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Подключиться к TREZOR ',

@@ -299,6 +299,7 @@ x_Keystore                  : 'Arquivo de armazenamento de chaves (UTC / JSON ·
 x_Keystore2                 : 'Arquivo de armazenamento de chaves (UTC / JSON) ',
 x_KeystoreDesc              : 'Este arquivo de armazenamento de chaves corresponde ao formato usado pela Mist para que você possa facilmente importá-lo no futuro. É recomendado que o arquivo seja transferido e feito seu backup. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Frase Mnemonic ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : 'Senha ',
@@ -500,7 +501,7 @@ ADD_DigitalBitbox_0a        : 'Re-abra MyEtherWallet em uma conexão (SSL) segur
 ADD_DigitalBitbox_0b        : 'Re-abra MyEtherWallet usando [Chrome](https://www.google.com/chrome/browser/desktop/) ou [Opera](https://www.opera.com/) ',
 ADD_DigitalBitbox_scan      : 'Conectar-se a Digital Bitbox ',
 ADD_MetaMask                : 'Connect to MetaMask ',
-
+ADD_GoETZ                   : 'Connect to GoETZ ',
 /* Node Switcher */
 NODE_Title                  : 'Set Up Your Custom Node',
 NODE_Subtitle               : 'To connect to a local node...',

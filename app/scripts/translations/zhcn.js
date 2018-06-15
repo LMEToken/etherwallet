@@ -299,6 +299,7 @@ x_Keystore                  : 'Keystore File (UTC / JSON · 推荐加密的) ',
 x_Keystore2                 : 'Keystore File (UTC / JSON) ',
 x_KeystoreDesc              : '这个Keystore/JSON文件和Mist、Geth使用的钱包文件是一样的，所以将来你可以非常容易地导入。 It is the recommended file to download and back up.推荐下载和备份这个文件。 ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Mnemonic Phrase ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : '密码 ',
@@ -552,7 +553,8 @@ ADD_Ledger_0a               : 'Please use MyEtherWallet on a secure (SSL / HTTPS
 ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
 ADD_Ledger_scan             : 'Connect to Ledger Wallet ',
 
-ADD_MetaMask                : 'Connect to MetaMask ',
+ADD_MetaMask                : '连接到 MetaMask ',
+ADD_GoETZ                   : '连接到 GoETZ ',
 
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Connect to TREZOR ',

@@ -295,6 +295,7 @@ x_Keystore                  : 'Keystore File (UTC / JSON · Recommended · Encry
 x_Keystore2                 : 'Keystore File (UTC / JSON) ',
 x_KeystoreDesc              : 'This Keystore file matches the format used by Mist so you can easily import it in the future. It is the recommended file to download and back up. ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'Mnemonic Phrase ',
 x_ParityPhrase              : 'Parity Phrase ',
 x_Password                  : 'Password ',
@@ -556,6 +557,7 @@ ADD_DigitalBitbox_0a        : 'Réouvrir MyEtherWallet sur une connexion sécuri
 ADD_DigitalBitbox_0b        : 'Réouvrir MyEtherWallet avec [Chrome](https://www.google.com/chrome/browser/desktop/) ou [Opera](https://www.opera.com/) ',
 ADD_DigitalBitbox_scan      : 'Connexion au Digital Bitbox ',
 ADD_MetaMask                : 'Connexion à MetaMask ',
+ADD_GoETZ                   : 'Connexion à GoETZ',
 
 /* Chrome Extension */
 CX_error_1                  : 'You don\'t have any wallets saved. Click ["Add Wallet"](/cx-wallet.html#add-wallet) to add one! ',

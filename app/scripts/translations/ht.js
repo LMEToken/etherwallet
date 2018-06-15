@@ -298,6 +298,7 @@ x_Keystore                  : 'PAJ KEYSTORE (UTC/ JSON DWE GEN KÒD) ',
 x_Keystore2                 : 'PAJ KEYSTORE (UTC / JSON) ',
 x_KeystoreDesc              : 'PAJ KEYSTORE SA SÈVI AK MENM  FÒM  MIST LA SÈVI A TOU, OU KAPAB PRAN L’ FASILMAN  PITA NAN LOGISYÈL YO. SE PAJ SA NOU MANDE W’ POU W’ PRAN AK KENBE L ',
 x_MetaMask                  : 'MetaMask / Mist ',
+x_GoETZ                     : 'GoETZ',
 x_Mnemonic                  : 'LÈT FRAZ KACHE.',
 x_ParityPhrase              : 'FRAZ KI SANBLE ',
 x_Password                  : 'KÒD SEKRÈ ',
@@ -361,7 +362,7 @@ ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.
 ADD_Ledger_scan             : 'Connect to Ledger Wallet ',
 
 ADD_MetaMask                : 'Connect to MetaMask ',
-
+ADD_GoETZ                   : 'Connect to GoETZ',
 x_Trezor                    : 'TREZOR ',
 ADD_Trezor_scan             : 'Connect to TREZOR ',
 x_DigitalBitbox             : 'Digital Bitbox ',
