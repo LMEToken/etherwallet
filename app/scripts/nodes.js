@@ -16,7 +16,7 @@ nodes.customNodeObj = {
     'type': nodes.nodeTypes.Custom,
     'eip155': false,
     'chainId': '',
-    'tokenList': [],
+    'tokenList': require('./tokens/etzTokens.json'),
     'abiList': [],
     'service': 'Custom',
     'lib': null
@@ -29,7 +29,7 @@ nodes.nodeList = {
         'type': nodes.nodeTypes.ETZ,
         'eip155': true,
         'chainId': 88,
-        'tokenList': [],
+        'tokenList': require('./tokens/etzTokens.json'),
         'abiList': [],
         'service': 'etherzero.org',
         'lib': new nodes.customNode('https://rpc.etherzero.org', '')
