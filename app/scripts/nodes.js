@@ -15,8 +15,9 @@ nodes.customNodeObj = {
     'blockExplorerAddr': '',
     'type': nodes.nodeTypes.Custom,
     'eip155': false,
-    'chainId': '',
-    'tokenList': require('./tokens/etzTokens.json'),
+    'chainId': 90,
+    // 'tokenList': require('./tokens/etzTokens.json'),
+    'tokenList': [],
     'abiList': [],
     'service': 'Custom',
     'lib': null
@@ -28,12 +29,13 @@ nodes.nodeList = {
         'blockExplorerAddr': 'https://explorer.etherzero.org/addr/[[address]]',
         'type': nodes.nodeTypes.ETZ,
         'eip155': true,
-        'chainId': 88,
-        'tokenList': require('./tokens/etzTokens.json'),
+        'chainId': 90,
+        // 'tokenList': require('./tokens/etzTokens.json'),
+        'tokenList': [],
         'abiList': [],
-        'service': 'etherzero.org',
-        'lib': new nodes.customNode('https://rpc.etherzero.org', '')
-    }
+        'service': 'etzrpc.org',
+        'lib': new nodes.customNode('https://etzrpc.org', '')
+    },
 };
 
 

@@ -206,7 +206,7 @@
 
 
       <!-- Nonce -->
-      <section class="row form-group" ng-show="checkTxPage">
+      <section class="row form-group" ng-show="true">
         <div class="col-sm-11 clearfix">
 
           <a class="account-help-icon"
@@ -232,7 +232,7 @@
 
 
       <!-- Gas Price -->
-      <section class="row form-group" ng-show="checkTxPage">
+      <section class="row form-group" ng-show="true">
         <div class="col-sm-11 clearfix">
           <a class="account-help-icon"
              href="https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html"
