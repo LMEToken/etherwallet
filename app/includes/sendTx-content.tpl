@@ -206,7 +206,7 @@
 
 
       <!-- Nonce -->
-      <section class="row form-group" ng-show="true">
+      <section class="row form-group" ng-show="checkTxPage">
         <div class="col-sm-11 clearfix">
 
           <a class="account-help-icon"
@@ -232,7 +232,7 @@
 
 
       <!-- Gas Price -->
-      <section class="row form-group" ng-show="true">
+      <section class="row form-group" ng-show="checkTxPage">
         <div class="col-sm-11 clearfix">
           <a class="account-help-icon"
              href="https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html"
@@ -247,7 +247,7 @@
           </label>
           <input type="text"
                  class="form-control"
-                 placeholder="50"
+                 placeholder="18"
                  ng-model="tx.gasPrice"
                  ng-disabled="checkTxReadOnly"
                  ng-class="Validator.isPositiveNumber(tx.gasPrice) ? 'is-valid' : 'is-invalid'" />

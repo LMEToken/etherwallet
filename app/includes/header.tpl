@@ -122,6 +122,21 @@
       </ul>
     </span>
 
+    <span class="dropdown dropdown-gas" ng-cloak>
+      <a tabindex="0" aria-haspopup="true" aria-label="adjust gas price" class="dropdown-toggle  btn btn-white" ng-click="dropdownGasPrice = !dropdownGasPrice">
+        <span translate="OFFLINE_Step2_Label_3">Gas Price</span>:
+          {{gas.value}} Gwei
+          <i class="caret"></i>
+      </a>
+      <ul class="dropdown-menu" ng-show="dropdownGasPrice">
+        <div class="header--gas">
+          <span translate="OFFLINE_Step2_Label_3">Gas Price</span>:
+          {{gas.value}} Gwei
+          <input type="range" ng-model="gas.value" min="{{gas.min}}" max="{{gas.max}}" step="{{gas.step}}" ng-change="gasChanged()"/>
+        </div>
+      </ul>
+    </span>
+
     <!-- Warning: The separators you see on the frontend are in styles/etherwallet-custom.less. If you add / change a node, you have to adjust these. Ping tayvano if you're not a CSS wizard -->
     <span class="dropdown dropdown-node" ng-cloak>
       <a tabindex="0"

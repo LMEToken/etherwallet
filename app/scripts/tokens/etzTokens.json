@@ -1,20 +1,14 @@
 [
   {
-    "address": "0x86d105d5fa67f3eef986f75b7e63c6664f88319a",
-    "symbol": "BO",
+    "address": "0xf30d911f189c17635c3047538f98a1fedb8875ff",
+    "symbol": "SQB",
     "decimal": 8,
     "type": "default"
   },
   {
-    "address": "0x01d5ba5698e62983866e4beb9c5485fa5634fa69",
-    "symbol": "FANS",
-    "decimal": 18,
-    "type": "default"
-  },
-  {
-    "address": "0x9d3cda9140657a8e8f75988828fb3c90d395f2fd",
-    "symbol": "EASY",
-    "decimal": 18,
+    "address": "0x0f078ac34a827c16dd1af5fb6d1549cda74e856e",
+    "symbol": "MSM",
+    "decimal": 8,
     "type": "default"
   }
 ]

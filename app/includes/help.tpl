@@ -474,7 +474,7 @@
         <h4 translate="HELP_16_Title">16. How do I check the balance of my account? </h4>
       </div>
       <div ng-show="h16">
-        <p translate="HELP_16_Desc_1"> You can use a blockchain explorer like <a href="https://explorer.etherzero.org/" target="_blank" rel="noopener noreferrer">etherscan.io</a>. Paste your address into the search bar and it will pull up your address and transaction history. For example, here's what our <a href="https://explorer.etherzero.org/addr/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" target="_blank" rel="noopener noreferrer">donation account</a> looks like on etherscan.io</p>
+        <p translate="HELP_16_Desc_1"> You can use a blockchain explorer like <a href="https://etzscan.com/" target="_blank" rel="noopener noreferrer">etherscan.io</a>. Paste your address into the search bar and it will pull up your address and transaction history. For example, here's what our <a href="https://etzscan.com/addr/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" target="_blank" rel="noopener noreferrer">donation account</a> looks like on etherscan.io</p>
     </div>
   </article>
 
