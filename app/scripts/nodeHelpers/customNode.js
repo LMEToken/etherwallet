@@ -31,7 +31,7 @@ customNode.prototype.getChainId = function(callback) {
 customNode.prototype.getBalance = function(addr, callback) {
     this.post({
         method: 'eth_getBalance',
-        params: [addr, 'latest']
+        params: [addr, 'pending']
     }, function(data) {
         if (data.error) callback({ error: true, msg: data.error.message, data: '' });
         else callback({ error: false, msg: '', data: { address: addr, balance: new BigNumber(data.result).toString() } });
@@ -50,9 +50,9 @@ customNode.prototype.getTransactionData = function(addr, callback) {
     var response = { error: false, msg: '', data: { address: addr, balance: '', gasprice: '', nonce: '' } };
     var parentObj = this;
     var reqObj = [
-        { "id": parentObj.getRandomID(), "jsonrpc": "2.0", "method": "eth_getBalance", "params": [addr, 'latest'] },
+        { "id": parentObj.getRandomID(), "jsonrpc": "2.0", "method": "eth_getBalance", "params": [addr, 'pending'] },
         { "id": parentObj.getRandomID(), "jsonrpc": "2.0", "method": "eth_gasPrice", "params": [] },
-        { "id": parentObj.getRandomID(), "jsonrpc": "2.0", "method": "eth_getTransactionCount", "params": [addr, 'latest'] }
+        { "id": parentObj.getRandomID(), "jsonrpc": "2.0", "method": "eth_getTransactionCount", "params": [addr, 'pending'] }
     ];
     this.rawPost(reqObj, function(data) {
         for (var i in data) {
