@@ -247,7 +247,7 @@
           </label>
           <input type="text"
                  class="form-control"
-                 placeholder="50"
+                 placeholder="18"
                  ng-model="tx.gasPrice"
                  ng-disabled="checkTxReadOnly"
                  ng-class="Validator.isPositiveNumber(tx.gasPrice) ? 'is-valid' : 'is-invalid'" />

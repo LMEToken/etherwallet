@@ -351,10 +351,10 @@
       </h5>
       <ul class="account-info">
         <li>
-          <a href="https://explorer.etherzero.org/addr/{{wallet.getAddressString()}}"
+          <a href="https://etzscan.com/addr/{{wallet.getAddressString()}}"
              target="_blank"
              rel="noopener noreferrer">
-               https://explorer.etherzero.org/addr/ {{wallet.getAddressString()}}
+               https://etzscan.com/addr/ {{wallet.getAddressString()}}
           </a>
         </li>
       </ul>

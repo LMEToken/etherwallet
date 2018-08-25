@@ -56,7 +56,7 @@
           ETH/ETZ:
           <span class="mono wrap">
             mewtopia.eth
-            <a title="See this address on the blockchain explorer" href="https://explorer.etherzero.org/addr/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" class="ext-etheraddresslookup-link" target="_blank">
+            <a title="See this address on the blockchain explorer" href="https://etzscan.com/addr/0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D" class="ext-etheraddresslookup-link" target="_blank">
               0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D
             </a>
           </span>

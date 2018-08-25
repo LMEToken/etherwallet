@@ -1,0 +1,14 @@
+[
+  {
+    "address": "0xf30d911f189c17635c3047538f98a1fedb8875ff",
+    "symbol": "SQB",
+    "decimal": 8,
+    "type": "default"
+  },
+  {
+    "address": "0x0f078ac34a827c16dd1af5fb6d1549cda74e856e",
+    "symbol": "MSM",
+    "decimal": 8,
+    "type": "default"
+  }
+]
