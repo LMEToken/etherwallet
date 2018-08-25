@@ -210,6 +210,9 @@ uiFuncs.generateTx = function(txData, callback) {
 }
 uiFuncs.sendTx = function(signedTx, callback) {
   // check for web3 late signed tx
+    if(window.web3 == undefined){
+        window.web3 = window.web3_etz
+    }
     if (signedTx.slice(0,2) !== '0x') {
       var txParams = JSON.parse(signedTx)
       window.web3.eth.sendTransaction(txParams, function(err, txHash){
